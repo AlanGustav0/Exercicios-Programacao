@@ -1,4 +1,6 @@
-public class CountingValleys {
+package HackerRank;
+
+public class CoutingValleys {
 
     public static void main(String[] args) {
         String path = "DDUUDDUDUUUD";
