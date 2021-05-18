@@ -1,5 +1,5 @@
 def minimumAbsoluteDifference(arr):
-    arr.sort
+    arr.sort()
     min_diff = 10 ** 10
 
     for i in range(1, len(arr)):
@@ -11,5 +11,4 @@ def minimumAbsoluteDifference(arr):
 
    
 arr = [1,-3,71,68,17]
-
 minimumAbsoluteDifference(arr)
