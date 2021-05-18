@@ -1,15 +1,15 @@
 def minimumAbsoluteDifference(arr):
-    menor_diff = 999
-    for i in range(0, len(arr) - 1):
-        for j in range(i+1, len(arr)):
-            diff = abs(arr[i] - arr[j])
-            if diff < menor_diff:
-                menor_diff = diff
+    arr.sort
+    min_diff = 10 ** 10
 
-    print(menor_diff)
+    for i in range(1, len(arr)):
+        diff = abs(arr[i-1] - arr[i])
+        if diff < min_diff:
+            min_diff = diff
+
+    print(min_diff)
 
    
-
 arr = [1,-3,71,68,17]
 
 minimumAbsoluteDifference(arr)

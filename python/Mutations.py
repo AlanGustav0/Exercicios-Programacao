@@ -6,7 +6,6 @@ def mutate_string(string, position, character):
     print(new_string)
 
 
-
 string = 'abracadabra'
 character = 'k'
 position = 5
