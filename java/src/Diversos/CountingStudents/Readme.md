@@ -8,5 +8,5 @@ O instrutor Alez possui três cursos A,B e C, e deseja saber seu número total d
 
 Seu programa deve ler os alunos dos cursos A, B e C do instrutor Alex, depois mostrar a quantidade total de alunos dele, conforme exemplo.
 
-![alt text](https://github.com/AlanGustav0/java/src/Diversos/CountingStudents/exemple.JPG)
+![Image exemple](https://github.com/AlanGustav0/Java-Exercicios/blob/master/java/src/Diversos/CountingStudents/exemple.JPG)
 
